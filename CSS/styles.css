@@ -92,7 +92,7 @@ nav {
 
 	transition-property: color;
 	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -136,12 +136,9 @@ nav {
 	letter-spacing: 0.02em;
 	text-decoration: none;
 
-	transition-property: color;
+	transition-property: fill, color;
 	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
-	transition-property: fill;
-	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-header .contacts:hover,
 .page-header .contacts:focus {
@@ -230,6 +227,9 @@ nav {
 	border-color: rgba(0, 0, 0, 0.1);
 	fill: #000000;
 	background-color: transparent;
+	transition-property: border-color, fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-modal:hover,
 .close-modal:focus {
@@ -427,12 +427,10 @@ nav {
 	border-radius: 50%;
 	background-color: transparent;
 	fill: #afb1b8;
-	transition-property: fill;
+
+	transition-property: background-color, fill;
 	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
-	transition-property: background-color;
-	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .networks-list .item:not(:last-child) {
 	margin-right: 10px;
@@ -472,7 +470,7 @@ nav {
 
 	transition-property: fill;
 	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -577,12 +575,9 @@ nav {
 	font-size: 16px;
 	line-height: 1.62;
 
-	transition-property: background-color;
+	transition-property: background-color, color;
 	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters .item:not(:last-child) {
 	margin-right: 8px;
@@ -627,7 +622,7 @@ nav {
 	margin-right: 30px;
 	transition-property: box-shadow;
 	transition-duration: 250ms;
-	transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-link img {
 	display: block;
